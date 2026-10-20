@@ -1,0 +1,96 @@
+# 7‑Day AI Final Exam Study Plan
+
+**Target user:** University undergraduate preparing for a final exam in *Artificial Intelligence* (AI).  
+**Goal:** Cover core AI concepts, reinforce understanding with active study methods, and build exam‑ready problem‑solving skills within a realistic 6‑8 hours per day schedule.
+
+---
+
+## Day 1 – Foundations & Search
+| Item | Details |
+|------|---------|
+| **Topic** | AI problem formulation, rational agents, uninformed search (BFS, DFS, Uniform‑Cost), heuristics intro |
+| **Study methods** | • 45 min reading (textbook/chapter)  • 30 min concept map (draw agent loop, search tree)  • 30 min video lecture (e.g., UC Berkeley CS188) |
+| **Estimated time** | 2 h total |
+| **Practice activities** | • Solve 5 textbook problems on BFS/DFS  • Implement a simple BFS in Python (10‑line script) |
+| **Justification** | Establishes the basic AI paradigm and search techniques that underpin later topics like heuristic search and planning. |
+
+---
+
+## Day 2 – Heuristic Search & Informed Strategies
+| Item | Details |
+|------|---------|
+| **Topic** | Heuristic functions, admissibility, consistency, A* search, greedy best‑first, iterative deepening A* |
+| **Study methods** | • 40 min reading (A* theory)  • 20 min compare table (pros/cons)  • 30 min interactive demo (online visualizer) |
+| **Estimated time** | 2 h 15 min |
+| **Practice activities** | • 8 A* problem sets (hand‑solve)  • Modify Day 1 BFS script to A* (add heuristic) |
+| **Justification** | Builds directly on Day 1 search, introduces optimality concepts crucial for planning and game‑playing sections. |
+
+---
+
+## Day 3 – Knowledge Representation & Reasoning
+| Item | Details |
+|------|---------|
+| **Topic** | Propositional logic, first‑order logic (FOL), inference rules, resolution, knowledge bases |
+| **Study methods** | • 45 min textbook chapters  • 30 min flashcards (key symbols, rules)  • 30 min walkthrough of a resolution proof |
+| **Estimated time** | 2 h 15 min |
+| **Practice activities** | • Translate 5 natural‑language statements into propositional/FOL  • Solve 4 resolution exercises (paper‑pencil) |
+| **Justification** | Reasoning skills are a separate pillar of AI; mastering logical representation prepares the student for probabilistic models and expert systems later. |
+
+---
+
+## Day 4 – Probabilistic Models & Bayesian Reasoning
+| Item | Details |
+|------|---------|
+| **Topic** | Probability basics, Bayes’ theorem, Bayesian networks, inference (exact & approximate) |
+| **Study methods** | • 40 min reading (BN intro)  • 20 min sketch network diagrams  • 30 min video (e.g., Andrew Ng) |
+| **Estimated time** | 2 h |
+| **Practice activities** | • Build a simple 3‑node Bayesian network in a notebook (e.g., pgmpy)  • Compute posterior probabilities by hand for 3 scenarios |
+| **Justification** | Complements logical reasoning with uncertainty handling, a core exam topic and foundation for ML sections. |
+
+---
+
+## Day 5 – Machine Learning Overview & Supervised Learning
+| Item | Details |
+|------|---------|
+| **Topic** | Supervised learning pipeline, linear regression, logistic regression, evaluation metrics, overfitting/regularization |
+| **Study methods** | • 45 min textbook/lecture notes  • 30 min coding tutorial (scikit‑learn)  • 15 min summary sheet creation |
+| **Estimated time** | 2 h 30 min |
+| **Practice activities** | • Implement linear regression from scratch (gradient descent)  • Run a scikit‑learn classification example, compute accuracy, precision, recall |
+| **Justification** | Provides the most heavily weighted exam component; practical coding reinforces theory and prepares for potential programming questions. |
+
+---
+
+## Day 6 – Advanced ML Topics & Reinforcement Learning Intro
+| Item | Details |
+|------|---------|
+| **Topic** | Decision trees, ensemble methods (bagging, boosting), basics of reinforcement learning (MDP, value iteration, Q‑learning) |
+| **Study methods** | • 30 min reading decision trees  • 30 min video on ensembles  • 30 min RL lecture (MDP) |
+| **Estimated time** | 2 h |
+| **Practice activities** | • Build a decision tree on a small dataset (manual split)  • Simulate a 2‑state MDP on paper, compute optimal policy  • Write pseudo‑code for Q‑learning |
+| **Justification** | Extends ML coverage, introduces RL which often appears as a distinct sub‑topic; short hands‑on tasks keep the workload manageable before the final review. |
+
+---
+
+## Day 7 – Integrated Review & Mock Exam
+| Item | Details |
+|------|---------|
+| **Topic** | Consolidated review of all previous topics, timed mock exam, error analysis |
+| **Study methods** | • 30 min quick‑review cheat‑sheet (one‑page)  • 90 min mock exam (20‑30 mixed‑type questions)  • 30 min review of wrong answers, note gaps |
+| **Estimated time** | 2 h 30 min |
+| **Practice activities** | • Complete the mock (no resources)  • Write a one‑paragraph explanation for each missed question |
+| **Justification** | Simulates exam conditions, identifies remaining weak spots, and reinforces memory through active recall and spaced repetition. |
+
+---
+
+## General Recommendations
+- **Study blocks:** 90‑minute focused blocks with 10‑15 min breaks (Pomodoro‑style).  
+- **Active recall:** After each reading segment, close the book and recite key points.  
+- **Spaced repetition:** Use flashcards (Anki) for definitions, formulas, and inference rules throughout the week.  
+- **Health:** Aim for 6‑8 hours sleep, stay hydrated, and include light exercise to maintain concentration.
+
+---
+
+**Completion Criteria**
+- The file `AI_Study_Plan_7_Day.txt` is created in the workspace root.
+- Contains the structured 7‑day plan with topics, methods, time estimates, practice activities, and justification as shown above.
+- No placeholder text remains; the document is ready for the student to follow.

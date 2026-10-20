@@ -1,0 +1,74 @@
+Compound Interest Calculation
+=============================
+
+**Problem:** Calculate the exact compound interest on a $15,000 investment at 6.5% annual interest compounded monthly for 8 years. Show each intermediate step and calculation formula clearly.
+
+---
+
+### 1. Compound‑interest formula
+For principal \(P\), annual nominal rate \(r\) (as a decimal), compounding frequency \(n\) (times per year), and time \(t\) (years),
+
+\[ A = P\left(1+\frac{r}{n}\right)^{n t} \]
+
+where:
+- \(A\) = amount after \(t\) years (principal + interest)
+- \(I = A - P\) = interest earned.
+
+---
+
+### 2. Insert the given numbers
+| Symbol | Meaning | Value |
+|--------|---------|-------|
+| \(P\) | Principal | $15,000 |
+| \(r\) | Annual nominal rate | 6.5% = 0.065 |
+| \(n\) | Compounding periods per year (monthly) | 12 |
+| \(t\) | Number of years | 8 |
+
+**Monthly interest rate**
+\[ \frac{r}{n}= \frac{0.065}{12}=0.005416\overline{6} \]
+
+**Number of compounding periods**
+\[ n t = 12 \times 8 = 96 \]
+
+---
+
+### 3. Compute the growth factor \(\left(1+\frac{r}{n}\right)^{n t}\)
+- Base: \(1 + \frac{r}{n}=1+0.005416\overline{6}=1.0054166666666667\)
+- Exponent: 96
+
+Using high‑precision calculation:
+\[ \left(1.0054166666666667\right)^{96}=1.6796499999999998 \]
+*(Rounded to 15 decimal places.)*
+
+---
+
+### 4. Compute the final amount \(A\)
+\[ \begin{aligned}
+A &= P \times \left(1+\frac{r}{n}\right)^{n t}\\
+  &= 15,000 \times 1.6796499999999998\\
+  &= 25,194.75 \text{ (rounded to the nearest cent)}
+\end{aligned} \]
+
+---
+
+### 5. Compute the interest earned \(I\)
+\[ \begin{aligned}
+I &= A - P\\
+  &= 25,194.75 - 15,000\\
+  &= 10,194.75
+\end{aligned} \]
+
+---
+
+## Result
+- **Final amount after 8 years:** **$25,194.75**
+- **Exact compound interest earned:** **$10,194.75**
+
+---
+
+### Quick sanity check
+Effective annual rate for monthly compounding:
+\[ \left(1+\frac{0.065}{12}\right)^{12}-1 \approx 0.06707 \;(6.707\%) \]
+Compounding that 8 times gives:
+\[ (1.06707)^8 \approx 1.67965, \]
+which matches the growth factor above, confirming the calculation.
